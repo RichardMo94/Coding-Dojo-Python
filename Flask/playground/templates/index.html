@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground | Welcome</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        background-color: black;
+    }
+    #header{
+        text-align: center;
+        color: white;
+    }
+    #container{
+        text-align: center;
+    }
+    .boxes{
+        height: 150px;
+        width: 150px;
+        background-color: yellow;
+        display: inline-flex;
+        margin: 20px;
+        box-shadow: 5px 10px 8px #888888;
+        border-radius: 5px;
+    }
+    .boxes{
+        background-color: {{tempColor}};
+    }
+</style>
+<body>
+    <div id="header">
+        <h1>Welcome</h1>
+    </div>
+    <div id="container">
+        {% for x in range(0, num): %}
+        <div class="boxes">
+        
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
