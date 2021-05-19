@@ -1,0 +1,26 @@
+
+
+#text{
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: yellow;
+}
+#text p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Knewave', cursive;
+}
+
+#time{
+    margin-top: 30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: yellow;
+}
+#time p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Knewave', cursive;
+}
+
+body{
+    background-color: turquoise;
+}
