@@ -1,0 +1,46 @@
+body{
+    background-color: teal;
+    color:white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: black solid 1px;
+    margin-right: 50px;
+    height:200px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    font-size: 20px;
+}
+form{
+    margin-top: 20px;
+}
+button{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;}
+
+button:hover{
+    background-color: gold;
+}
+
+#activities h4{
+    font-size: 35px;
+}
+
+#activity{
+    border: black solid 1px;
+    height: 150px;
+    overflow: auto;
+}
+
+#activity p{
+    font-size: 15px;
+    color: white;
+}
