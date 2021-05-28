@@ -1,0 +1,44 @@
+/* index.html css */
+
+body{
+    background-color: teal;
+}
+header{
+    text-align: center;
+}
+#container{
+    border: black solid 1px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    border-radius: 5px;
+}
+#container div{
+    margin-top: 5px;
+    
+}
+form{
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+#survey{
+    border: black solid 1px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    border-radius: 5px;
+
+}
